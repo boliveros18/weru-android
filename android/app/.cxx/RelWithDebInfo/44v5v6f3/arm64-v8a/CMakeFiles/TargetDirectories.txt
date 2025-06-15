@@ -1,0 +1,2 @@
+C:/Users/ameri/OneDrive/Desktop/Flutter/weru/android/app/.cxx/RelWithDebInfo/44v5v6f3/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/ameri/OneDrive/Desktop/Flutter/weru/android/app/.cxx/RelWithDebInfo/44v5v6f3/arm64-v8a/CMakeFiles/rebuild_cache.dir

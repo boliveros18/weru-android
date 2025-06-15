@@ -1,0 +1,126 @@
+{
+  "Tecnico": [
+    {
+      "id": 47,
+      "cedula": "12345678",
+      "nombre": "Juan Perez",
+      "idProveedor": 1,
+      "idEstadoTecnico": 2,
+      "usuario": "juan",
+      "clave": "123",
+      "telefono": "123-456-7890",
+      "celular": "987-654-3210",
+      "latitud": 4.123456,
+      "longitud": -74.123456,
+      "androidID": "OPR1.170623.032",
+      "fechaPulso": "2025-01-03T12:00:00",
+      "versionApp": "1.0.0"
+    }
+  ],
+  "ActividadServicio": [
+    {
+      "id": 1,
+      "idActividad": 101,
+      "idServicio": "S001",
+      "cantidad": 5,
+      "costo": 200,
+      "valor": 500,
+      "ejecutada": 1
+    }
+  ],
+  "AdjuntoServicio": [
+    {
+      "id": 1,
+      "idServicio": "S001",
+      "idTecnico": 1,
+      "titulo": "Informe de actividad",
+      "descripcion": "Informe detallado sobre la actividad realizada.",
+      "tipo": "PDF"
+    }
+  ],
+  "DiagnosticoServicio": [
+    {
+      "id": 1,
+      "idServicio": 1,
+      "idDiagnostico": 201
+    }
+  ],
+  "IndicadorServicio": [
+    {
+      "id": 1,
+      "idIndicador": 301,
+      "idServicio": "S001",
+      "idTecnico": 1,
+      "valor": "90"
+    }
+  ],
+  "IndirectoServicio": [
+    {
+      "id": 1,
+      "idIndirecto": 401,
+      "idServicio": "S001",
+      "cantidad": 3,
+      "costo": 100,
+      "valor": 300
+    }
+  ],
+  "ItemActividadServicio": [
+    {
+      "id": 1,
+      "idItem": 501,
+      "idActividadServicio": 1,
+      "cantidadReq": 2.5
+    }
+  ],
+  "ItemServicio": [
+    {
+      "id": 1,
+      "idItem": 601,
+      "idServicio": 1,
+      "cantidad": 10.0,
+      "costo": 50,
+      "valor": 500,
+      "cantidadReq": 2.5,
+      "fechaUltimaVez": "2025-01-01",
+      "vidaUtil": "5 años"
+    }
+  ],
+  "NovedadServicio": [
+    {
+      "id": 1,
+      "idServicio": 1,
+      "idNovedad": 701
+    }
+  ],
+  "Modelo": [{ "id": 3534, "descripcion": "TANQUE HIDROFLOW" }],
+  "Servicio": [
+    {
+      "id": 1060291,
+      "idTecnico": 47,
+      "idCliente": 86,
+      "idEstadoServicio": 1,
+      "nombre": "Reparación de equipo",
+      "descripcion": "Servicio de reparación para el equipo X.",
+      "direccion": "Calle 123 #67-04,  Villacountry",
+      "idCiudad": 1,
+      "latitud": 10.4062718,
+      "longitud": -75.5202033,
+      "fechaInicio": "2025-01-05",
+      "fechayhorainicio": "2025-01-05 10:00:00",
+      "fechaModificacion": "2025-01-06",
+      "fechaFin": "2025-01-07",
+      "idEquipo": 233911,
+      "idFalla": 1,
+      "observacionReporte": "Falla en el sistema de refrigeración.",
+      "radicado": "R001",
+      "idTipoServicio": 1,
+      "cedulaFirma": "123456789",
+      "nombreFirma": "Juan Perez",
+      "archivoFirma": "firma.pdf",
+      "orden": 1,
+      "fechaLlegada": "2025-01-05T09:00:00",
+      "comentarios": "Servicio urgente.",
+      "consecutivo": 1001
+    }
+  ]
+}
