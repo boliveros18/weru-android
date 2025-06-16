@@ -1,0 +1,412 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.weru.weru"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-feature
+11-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:5:5-85
+12        android:name="android.hardware.camera"
+12-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:5:19-57
+13        android:required="false" />
+13-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:5:58-82
+14
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:6:5-81
+15-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:6:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:7:5-79
+16-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:7:22-76
+17    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+17-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:8:5-85
+17-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:8:22-82
+18    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+18-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:9:5-77
+18-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:9:22-74
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:10:5-81
+19-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:10:22-78
+20    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+20-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:11:5-79
+20-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:11:22-76
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:12:5-80
+21-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:12:22-77
+22    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+22-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:13:5-81
+22-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:13:22-79
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+23-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:14:5-76
+23-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:14:22-73
+24    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+24-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:15:5-76
+24-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:15:22-73
+25    <uses-permission android:name="android.permission.INTERNET" />
+25-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:16:5-67
+25-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:16:22-64
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+26-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:17:5-79
+26-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:17:22-76
+27    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+27-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:18:5-86
+27-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:18:22-83
+28    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+28-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:19:5-75
+28-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:19:22-72
+29    <uses-permission android:name="android.permission.CAMERA" />
+29-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:20:5-65
+29-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:20:22-62
+30    <uses-permission android:name="android.permission.VIBRATE" />
+30-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:21:5-66
+30-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:21:22-63
+31    <uses-permission android:name="android.permission.WAKE_LOCK" />
+31-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:22:5-68
+31-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:22:22-65
+32    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+32-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:23:5-77
+32-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:23:22-74
+33    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+33-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:24:5-92
+33-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:24:22-89
+34    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+34-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:25:5-95
+34-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:25:22-92
+35    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+35-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:26:5-81
+35-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:26:22-78
+36
+37    <uses-permission-sdk-23
+37-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:28:5-111
+38        android:name="android.permission.FOREGROUND_SERVICE"
+38-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:28:29-81
+39        android:minSdkVersion="28" />
+39-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:28:82-108
+40    <uses-permission-sdk-23
+40-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:29:5-115
+41        android:name="android.permission.RECEIVE_BOOT_COMPLETED"
+41-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:29:29-85
+42        android:maxSdkVersion="34" />
+42-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:29:86-112
+43
+44    <queries>
+44-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:31:5-40:15
+45        <intent>
+45-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:32:9-35:18
+46            <action android:name="android.intent.action.VIEW" />
+46-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:33:13-65
+46-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:33:21-62
+47
+48            <data android:scheme="https" />
+48-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:34:13-44
+48-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:34:19-41
+49        </intent>
+50        <intent>
+50-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:36:9-39:18
+51            <action android:name="android.intent.action.PROCESS_TEXT" />
+51-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:37:13-73
+51-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:37:21-70
+52
+53            <data android:mimeType="text/plain" />
+53-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:34:13-44
+53-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:38:19-48
+54        </intent>
+55    </queries>
+56
+57    <permission
+57-->[androidx.core:core:1.13.1] C:\Users\ameri\.gradle\caches\transforms-3\6f9a65baaf12c9cf4e60f5516557d16b\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+58        android:name="com.weru.weru.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+58-->[androidx.core:core:1.13.1] C:\Users\ameri\.gradle\caches\transforms-3\6f9a65baaf12c9cf4e60f5516557d16b\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+59        android:protectionLevel="signature" />
+59-->[androidx.core:core:1.13.1] C:\Users\ameri\.gradle\caches\transforms-3\6f9a65baaf12c9cf4e60f5516557d16b\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+60
+61    <uses-permission android:name="com.weru.weru.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+61-->[androidx.core:core:1.13.1] C:\Users\ameri\.gradle\caches\transforms-3\6f9a65baaf12c9cf4e60f5516557d16b\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+61-->[androidx.core:core:1.13.1] C:\Users\ameri\.gradle\caches\transforms-3\6f9a65baaf12c9cf4e60f5516557d16b\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+62
+63    <application
+64        android:name="android.app.Application"
+64-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:43:9-42
+65        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+65-->[androidx.core:core:1.13.1] C:\Users\ameri\.gradle\caches\transforms-3\6f9a65baaf12c9cf4e60f5516557d16b\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+66        android:extractNativeLibs="true"
+67        android:icon="@mipmap/ic_launcher"
+67-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:45:9-43
+68        android:label="WerU"
+68-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:44:9-29
+69        android:requestLegacyExternalStorage="true"
+69-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:48:9-52
+70        android:theme="@style/LaunchTheme"
+70-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:46:9-43
+71        android:usesCleartextTraffic="true" >
+71-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:47:9-44
+72        <activity
+72-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:50:9-68:20
+73            android:name="com.weru.weru.MainActivity"
+73-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:51:13-41
+74            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+74-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:56:13-163
+75            android:exported="true"
+75-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:52:13-36
+76            android:hardwareAccelerated="true"
+76-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:57:13-47
+77            android:launchMode="singleTop"
+77-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:53:13-43
+78            android:taskAffinity=""
+78-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:54:13-36
+79            android:theme="@style/LaunchTheme"
+79-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:55:13-47
+80            android:windowSoftInputMode="adjustResize" >
+80-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:58:13-55
+81            <meta-data
+81-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:60:13-62:57
+82                android:name="io.flutter.embedding.android.NormalTheme"
+82-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:61:17-72
+83                android:resource="@style/NormalTheme" />
+83-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:62:17-54
+84
+85            <intent-filter>
+85-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:64:13-67:29
+86                <action android:name="android.intent.action.MAIN" />
+86-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:65:17-69
+86-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:65:25-66
+87
+88                <category android:name="android.intent.category.LAUNCHER" />
+88-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:66:17-77
+88-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:66:27-74
+89            </intent-filter>
+90        </activity>
+91
+92        <service
+92-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:70:9-75:157
+93            android:name="id.flutter.flutter_background_service.BackgroundService"
+93-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:71:13-83
+94            android:enabled="true"
+94-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:73:13-35
+95            android:exported="true"
+95-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:74:13-36
+96            android:foregroundServiceType="dataSync|location|health|mediaPlayback|mediaProcessing|mediaProjection|shortService|specialUse|systemExempted"
+96-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:75:13-154
+97            android:permission="android.permission.FOREGROUND_SERVICE"
+97-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:72:13-71
+98            android:stopWithTask="false" />
+98-->[:flutter_background_service_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-41
+99        <service
+99-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:77:9-81:61
+100            android:name="com.dexterous.flutterlocalnotifications.ForegroundService"
+100-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:78:13-85
+101            android:exported="false"
+101-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:79:13-37
+102            android:foregroundServiceType="mediaPlayback"
+102-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:81:13-58
+103            android:stopWithTask="false" />
+103-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:80:13-41
+104
+105        <provider
+105-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:84:9-92:20
+106            android:name="androidx.core.content.FileProvider"
+106-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:85:13-62
+107            android:authorities="com.weru.fileprovider"
+107-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:86:13-56
+108            android:exported="false"
+108-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:87:13-37
+109            android:grantUriPermissions="true" >
+109-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:88:13-47
+110            <meta-data
+110-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:89:13-91:54
+111                android:name="android.support.FILE_PROVIDER_PATHS"
+111-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:90:17-67
+112                android:resource="@xml/file_paths" />
+112-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:91:17-51
+113        </provider>
+114
+115        <meta-data
+115-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:94:9-96:33
+116            android:name="flutterEmbedding"
+116-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:95:13-44
+117            android:value="2" />
+117-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:96:13-30
+118
+119        <service
+119-->[:geolocator_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:8:9-12:56
+120            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+120-->[:geolocator_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-77
+121            android:enabled="true"
+121-->[:geolocator_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:13-35
+122            android:exported="false"
+122-->[:geolocator_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-37
+123            android:foregroundServiceType="location" />
+123-->[:geolocator_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-53
+124
+125        <receiver
+125-->[:flutter_background_service_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-21:39
+126            android:name="id.flutter.flutter_background_service.WatchdogReceiver"
+126-->[:flutter_background_service_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-82
+127            android:enabled="true"
+127-->[:flutter_background_service_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-35
+128            android:exported="true" />
+128-->[:flutter_background_service_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-36
+129        <receiver
+129-->[:flutter_background_service_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:22:9-31:20
+130            android:name="id.flutter.flutter_background_service.BootReceiver"
+130-->[:flutter_background_service_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-78
+131            android:enabled="true"
+131-->[:flutter_background_service_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-35
+132            android:exported="true" >
+132-->[:flutter_background_service_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:25:13-36
+133            <intent-filter>
+133-->[:flutter_background_service_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-30:29
+134                <action android:name="android.intent.action.BOOT_COMPLETED" />
+134-->[:flutter_background_service_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:27:17-79
+134-->[:flutter_background_service_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:27:25-76
+135                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+135-->[:flutter_background_service_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:28:17-82
+135-->[:flutter_background_service_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:28:25-79
+136                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+136-->[:flutter_background_service_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:29:17-84
+136-->[:flutter_background_service_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:29:25-81
+137            </intent-filter>
+138        </receiver>
+139
+140        <provider
+140-->[:image_picker_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:9-17:20
+141            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+141-->[:image_picker_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:13-82
+142            android:authorities="com.weru.weru.flutter.image_provider"
+142-->[:image_picker_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+143            android:exported="false"
+143-->[:image_picker_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+144            android:grantUriPermissions="true" >
+144-->[:image_picker_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-47
+145            <meta-data
+145-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:89:13-91:54
+146                android:name="android.support.FILE_PROVIDER_PATHS"
+146-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:90:17-67
+147                android:resource="@xml/flutter_image_picker_file_paths" />
+147-->C:\Users\ameri\OneDrive\Desktop\Flutter\weru\android\app\src\main\AndroidManifest.xml:91:17-51
+148        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+149        <service
+149-->[:image_picker_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-31:19
+150            android:name="com.google.android.gms.metadata.ModuleDependencies"
+150-->[:image_picker_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-78
+151            android:enabled="false"
+151-->[:image_picker_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-36
+152            android:exported="false" >
+152-->[:image_picker_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-37
+153            <intent-filter>
+153-->[:image_picker_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-26:29
+154                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+154-->[:image_picker_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:25:17-94
+154-->[:image_picker_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:25:25-91
+155            </intent-filter>
+156
+157            <meta-data
+157-->[:image_picker_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-30:36
+158                android:name="photopicker_activity:0:required"
+158-->[:image_picker_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:29:17-63
+159                android:value="" />
+159-->[:image_picker_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:30:17-33
+160        </service>
+161
+162        <activity
+162-->[:url_launcher_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:8:9-11:74
+163            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+163-->[:url_launcher_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-74
+164            android:exported="false"
+164-->[:url_launcher_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:13-37
+165            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+165-->[:url_launcher_android] C:\Users\ameri\OneDrive\Desktop\Flutter\weru\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-71
+166        <activity
+166-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\ameri\.gradle\caches\transforms-3\7329ed24c6d9d1ce9e5b3c1b35fb5400\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
+167            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+167-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\ameri\.gradle\caches\transforms-3\7329ed24c6d9d1ce9e5b3c1b35fb5400\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:19-85
+168            android:exported="false"
+168-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\ameri\.gradle\caches\transforms-3\7329ed24c6d9d1ce9e5b3c1b35fb5400\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:22:19-43
+169            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+169-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\ameri\.gradle\caches\transforms-3\7329ed24c6d9d1ce9e5b3c1b35fb5400\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:21:19-78
+170
+171        <meta-data
+171-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\ameri\.gradle\caches\transforms-3\44b69e42e90a82781a06eca6cf660206\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+172            android:name="com.google.android.gms.version"
+172-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\ameri\.gradle\caches\transforms-3\44b69e42e90a82781a06eca6cf660206\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+173            android:value="@integer/google_play_services_version" />
+173-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\ameri\.gradle\caches\transforms-3\44b69e42e90a82781a06eca6cf660206\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+174
+175        <uses-library
+175-->[androidx.window:window:1.2.0] C:\Users\ameri\.gradle\caches\transforms-3\ccc4a5834963eab3ddfc6002627a8dfd\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+176            android:name="androidx.window.extensions"
+176-->[androidx.window:window:1.2.0] C:\Users\ameri\.gradle\caches\transforms-3\ccc4a5834963eab3ddfc6002627a8dfd\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+177            android:required="false" />
+177-->[androidx.window:window:1.2.0] C:\Users\ameri\.gradle\caches\transforms-3\ccc4a5834963eab3ddfc6002627a8dfd\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+178        <uses-library
+178-->[androidx.window:window:1.2.0] C:\Users\ameri\.gradle\caches\transforms-3\ccc4a5834963eab3ddfc6002627a8dfd\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+179            android:name="androidx.window.sidecar"
+179-->[androidx.window:window:1.2.0] C:\Users\ameri\.gradle\caches\transforms-3\ccc4a5834963eab3ddfc6002627a8dfd\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+180            android:required="false" />
+180-->[androidx.window:window:1.2.0] C:\Users\ameri\.gradle\caches\transforms-3\ccc4a5834963eab3ddfc6002627a8dfd\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+181
+182        <provider
+182-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ameri\.gradle\caches\transforms-3\025a519efc7e7e9feceab474293f9f99\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+183            android:name="androidx.startup.InitializationProvider"
+183-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ameri\.gradle\caches\transforms-3\025a519efc7e7e9feceab474293f9f99\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
+184            android:authorities="com.weru.weru.androidx-startup"
+184-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ameri\.gradle\caches\transforms-3\025a519efc7e7e9feceab474293f9f99\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
+185            android:exported="false" >
+185-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ameri\.gradle\caches\transforms-3\025a519efc7e7e9feceab474293f9f99\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
+186            <meta-data
+186-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ameri\.gradle\caches\transforms-3\025a519efc7e7e9feceab474293f9f99\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+187                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+187-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ameri\.gradle\caches\transforms-3\025a519efc7e7e9feceab474293f9f99\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+188                android:value="androidx.startup" />
+188-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ameri\.gradle\caches\transforms-3\025a519efc7e7e9feceab474293f9f99\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+189            <meta-data
+189-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ameri\.gradle\caches\transforms-3\26f310b97a62e76c40a5d9d6f00c87c1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+190                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+190-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ameri\.gradle\caches\transforms-3\26f310b97a62e76c40a5d9d6f00c87c1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+191                android:value="androidx.startup" />
+191-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ameri\.gradle\caches\transforms-3\26f310b97a62e76c40a5d9d6f00c87c1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+192        </provider>
+193
+194        <receiver
+194-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ameri\.gradle\caches\transforms-3\26f310b97a62e76c40a5d9d6f00c87c1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+195            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+195-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ameri\.gradle\caches\transforms-3\26f310b97a62e76c40a5d9d6f00c87c1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+196            android:directBootAware="false"
+196-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ameri\.gradle\caches\transforms-3\26f310b97a62e76c40a5d9d6f00c87c1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+197            android:enabled="true"
+197-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ameri\.gradle\caches\transforms-3\26f310b97a62e76c40a5d9d6f00c87c1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+198            android:exported="true"
+198-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ameri\.gradle\caches\transforms-3\26f310b97a62e76c40a5d9d6f00c87c1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+199            android:permission="android.permission.DUMP" >
+199-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ameri\.gradle\caches\transforms-3\26f310b97a62e76c40a5d9d6f00c87c1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+200            <intent-filter>
+200-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ameri\.gradle\caches\transforms-3\26f310b97a62e76c40a5d9d6f00c87c1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+201                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+201-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ameri\.gradle\caches\transforms-3\26f310b97a62e76c40a5d9d6f00c87c1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+201-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ameri\.gradle\caches\transforms-3\26f310b97a62e76c40a5d9d6f00c87c1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+202            </intent-filter>
+203            <intent-filter>
+203-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ameri\.gradle\caches\transforms-3\26f310b97a62e76c40a5d9d6f00c87c1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+204                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+204-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ameri\.gradle\caches\transforms-3\26f310b97a62e76c40a5d9d6f00c87c1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+204-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ameri\.gradle\caches\transforms-3\26f310b97a62e76c40a5d9d6f00c87c1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+205            </intent-filter>
+206            <intent-filter>
+206-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ameri\.gradle\caches\transforms-3\26f310b97a62e76c40a5d9d6f00c87c1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+207                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+207-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ameri\.gradle\caches\transforms-3\26f310b97a62e76c40a5d9d6f00c87c1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+207-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ameri\.gradle\caches\transforms-3\26f310b97a62e76c40a5d9d6f00c87c1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+208            </intent-filter>
+209            <intent-filter>
+209-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ameri\.gradle\caches\transforms-3\26f310b97a62e76c40a5d9d6f00c87c1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+210                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+210-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ameri\.gradle\caches\transforms-3\26f310b97a62e76c40a5d9d6f00c87c1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+210-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ameri\.gradle\caches\transforms-3\26f310b97a62e76c40a5d9d6f00c87c1\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+211            </intent-filter>
+212        </receiver>
+213    </application>
+214
+215</manifest>

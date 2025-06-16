@@ -1,0 +1,140 @@
+# C/C++ build system timings
+create_cxx_tasks
+  create-initial-cxx-model
+    create-variant-model 16ms
+    create-ARM64_V8A-model 17ms
+    create-X86_64-model 16ms
+    create-module-model 10ms
+    create-variant-model 11ms
+    create-ARM64_V8A-model 13ms
+    create-X86_64-model 17ms
+    create-module-model 16ms
+    create-variant-model 22ms
+    [gap of 11ms]
+    create-X86_64-model 25ms
+  create-initial-cxx-model completed in 175ms
+create_cxx_tasks completed in 183ms
+
+# C/C++ build system timings
+create_cxx_tasks
+  create-initial-cxx-model
+    [gap of 17ms]
+    create-ARMEABI_V7A-model 19ms
+    create-ARM64_V8A-model 10ms
+    create-X86_64-model 11ms
+    [gap of 23ms]
+    create-ARM64_V8A-model 24ms
+    create-X86-model 15ms
+    create-X86_64-model 12ms
+    create-variant-model 16ms
+    create-ARMEABI_V7A-model 17ms
+    create-ARM64_V8A-model 16ms
+    create-X86_64-model 27ms
+  create-initial-cxx-model completed in 223ms
+create_cxx_tasks completed in 230ms
+
+# C/C++ build system timings
+create_cxx_tasks
+  create-initial-cxx-model
+    create-module-model 25ms
+    create-variant-model 27ms
+    create-ARMEABI_V7A-model 53ms
+    create-ARM64_V8A-model 50ms
+    create-X86-model 43ms
+    create-X86_64-model 33ms
+    create-module-model
+      [gap of 18ms]
+      create-ndk-meta-abi-list 11ms
+      [gap of 16ms]
+    create-module-model completed in 45ms
+    create-variant-model 20ms
+    create-ARMEABI_V7A-model 41ms
+    create-ARM64_V8A-model 23ms
+    create-X86-model 31ms
+    create-X86_64-model 43ms
+    create-module-model 20ms
+    create-variant-model 35ms
+    create-ARMEABI_V7A-model 20ms
+    create-ARM64_V8A-model 22ms
+    create-X86-model 22ms
+    create-X86_64-model 38ms
+  create-initial-cxx-model completed in 628ms
+  [gap of 16ms]
+create_cxx_tasks completed in 645ms
+
+# C/C++ build system timings
+create_cxx_tasks
+  create-initial-cxx-model
+    create-ARMEABI_V7A-model 23ms
+    [gap of 11ms]
+    create-X86_64-model 19ms
+    create-module-model
+      create-project-model 14ms
+    create-module-model completed in 14ms
+    create-ARMEABI_V7A-model 17ms
+    [gap of 16ms]
+    create-X86-model 17ms
+    create-X86_64-model 25ms
+    create-module-model 12ms
+    create-variant-model 13ms
+    create-ARMEABI_V7A-model 17ms
+    create-X86-model 17ms
+    create-X86_64-model 23ms
+  create-initial-cxx-model completed in 225ms
+create_cxx_tasks completed in 236ms
+
+# C/C++ build system timings
+create_cxx_tasks
+  create-initial-cxx-model
+    create-module-model
+      [gap of 17ms]
+      create-ndk-meta-abi-list 14ms
+      [gap of 19ms]
+    create-module-model completed in 50ms
+    create-variant-model 34ms
+    create-ARMEABI_V7A-model 54ms
+    create-ARM64_V8A-model 58ms
+    create-X86-model 51ms
+    create-X86_64-model 26ms
+    create-module-model
+      [gap of 21ms]
+      create-project-model 16ms
+    create-module-model completed in 45ms
+    create-variant-model 28ms
+    create-ARMEABI_V7A-model 20ms
+    create-ARM64_V8A-model 17ms
+    create-X86-model 17ms
+    create-X86_64-model 34ms
+    create-module-model
+      [gap of 30ms]
+      create-ndk-meta-abi-list 11ms
+    create-module-model completed in 48ms
+    create-variant-model 20ms
+    create-ARMEABI_V7A-model 17ms
+    create-ARM64_V8A-model 22ms
+    create-X86-model 47ms
+    [gap of 18ms]
+    create-X86_64-model 65ms
+    [gap of 15ms]
+  create-initial-cxx-model completed in 718ms
+  [gap of 28ms]
+create_cxx_tasks completed in 746ms
+
+# C/C++ build system timings
+create_cxx_tasks
+  create-initial-cxx-model
+    create-variant-model 17ms
+    create-ARMEABI_V7A-model 16ms
+    create-X86-model 17ms
+    create-module-model 17ms
+    create-ARMEABI_V7A-model 16ms
+    create-ARM64_V8A-model 18ms
+    create-X86-model 15ms
+    create-module-model 19ms
+    create-variant-model 16ms
+    create-ARMEABI_V7A-model 14ms
+    create-X86-model 18ms
+    create-X86_64-model 13ms
+  create-initial-cxx-model completed in 200ms
+create_cxx_tasks completed in 207ms
+
